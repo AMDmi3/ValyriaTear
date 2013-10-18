@@ -3,7 +3,12 @@
 # This file is distributed under the same license as the Valyria Tear package.
 # Dmitry Marakasov <amdmi3@amdmi3.ru>, 2013.
 #
-# XXX: название игры предполагаю как Слеза Валирии
+# Это мой первый опыт в локализации, не судите строго.
+# Если есть замечания/предложения, незамедлительно открывайте issue
+# или pull request.
+#
+# XXX: название игры перевёл как Слеза Валирии
+# XXX: не придумал как перевести Drunes, пока пусть будут Монеты
 #: map_names_tr.lua:2 map_names_tr.lua:4 map_names_tr.lua:8
 #: map_names_tr.lua:12 map_names_tr.lua:16 map_names_tr.lua:28
 #: map_names_tr.lua:32 map_names_tr.lua:36 map_names_tr.lua:40
@@ -330,7 +335,7 @@ msgstr "Настройки"
 
 #: ../src/modes/boot/boot.cpp:465 ../src/modes/menu/menu_views.cpp:1188
 msgid "Battle"
-msgstr ""
+msgstr "Боевые"
 
 #: ../src/modes/boot/boot.cpp:466 ../src/modes/boot/boot.cpp:728
 #: ../src/modes/mode_help_window.cpp:248
@@ -530,35 +535,35 @@ msgstr "Задействуйте выбранную ось на джойстик
 
 #: ../src/modes/map/map_treasure.cpp:82
 msgid "You obtain"
-msgstr ""
+msgstr "Вы нашли"
 
 #: ../src/modes/map/map_treasure.cpp:107
 msgid "Ok"
-msgstr ""
+msgstr "Принять"
 
 #: ../src/modes/map/map_treasure.cpp:160 ../src/modes/map/map_treasure.cpp:328
 msgid "Drunes"
-msgstr ""
+msgstr "Монеты"
 
 #: ../src/modes/menu/menu.cpp:232
 msgid "Inventory"
-msgstr ""
+msgstr "Вещи"
 
 #: ../src/modes/menu/menu.cpp:233
 msgid "Skills"
-msgstr ""
+msgstr "Навыки"
 
 #: ../src/modes/menu/menu.cpp:234
 msgid "Party"
-msgstr ""
+msgstr "Отряд"
 
 #: ../src/modes/menu/menu.cpp:235
 msgid "Quests"
-msgstr ""
+msgstr "Задания"
 
 #: ../src/modes/menu/menu.cpp:236
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #: ../src/modes/menu/menu.cpp:310
 msgid "Select to view Quest Log."
@@ -630,19 +635,19 @@ msgstr ""
 
 #: ../src/modes/menu/menu_views.cpp:99 ../src/modes/save/save_mode.cpp:712
 msgid "Lv: "
-msgstr ""
+msgstr "Ур: "
 
 #: ../src/modes/menu/menu_views.cpp:103 ../src/modes/save/save_mode.cpp:716
 msgid "HP: "
-msgstr ""
+msgstr "Здор: " # XXX вероятно есть какая-нибудь более-менее общепринятый перевод для HP?
 
 #: ../src/modes/menu/menu_views.cpp:108 ../src/modes/save/save_mode.cpp:721
 msgid "SP: "
-msgstr ""
+msgstr "Умен: " # XXX плохо
 
 #: ../src/modes/menu/menu_views.cpp:113
 msgid "XP to Next: "
-msgstr ""
+msgstr "Опыта до след: "
 
 #: ../src/modes/menu/menu_views.cpp:124
 msgid "Select an item to Equip or Use."
@@ -650,32 +655,32 @@ msgstr ""
 
 #: ../src/modes/menu/menu_views.cpp:216 ../src/modes/menu/menu_views.cpp:1186
 msgid "All"
-msgstr ""
+msgstr "Всё"
 
 #: ../src/modes/menu/menu_views.cpp:217
 msgid "Itm"
-msgstr ""
+msgstr "Вещ."
 
 #: ../src/modes/menu/menu_views.cpp:218
 msgid "Wpn"
-msgstr ""
+msgstr "Орж."
 
 #: ../src/modes/menu/menu_views.cpp:219
 msgid "Hlm"
-msgstr ""
+msgstr "Шлм."
 
 #: ../src/modes/menu/menu_views.cpp:220
 msgid "Tor"
-msgstr ""
+msgstr "Брн."
 
 #: ../src/modes/menu/menu_views.cpp:222 ../dat/actors/enemies.lua:820
 #: ../dat/actors/enemies.lua:940 ../dat/actors/enemies.lua:1376
 msgid "Leg"
-msgstr ""
+msgstr "Ног."
 
 #: ../src/modes/menu/menu_views.cpp:223
 msgid "Key"
-msgstr ""
+msgstr "Клю."
 
 #: ../src/modes/menu/menu_views.cpp:572
 msgid "This character cannot equip this item."
@@ -735,35 +740,35 @@ msgstr ""
 
 #: ../src/modes/menu/menu_views.cpp:935
 msgid "Experience Level: "
-msgstr ""
+msgstr "Уровень: "
 
 #: ../src/modes/menu/menu_views.cpp:937
 msgid "Strength (STR): "
-msgstr ""
+msgstr "Сила (STR): "
 
 #: ../src/modes/menu/menu_views.cpp:938
 msgid "Vigor (VIG): "
-msgstr ""
+msgstr "Разум (VIG): "
 
 #: ../src/modes/menu/menu_views.cpp:939
 msgid "Fortitude (FRT): "
-msgstr ""
+msgstr "Стойкость (FRT): "
 
 #: ../src/modes/menu/menu_views.cpp:940
 msgid "Protection (PRO): "
-msgstr ""
+msgstr "Защита (PRO): "
 
 #: ../src/modes/menu/menu_views.cpp:941
 msgid "Agility (AGI): "
-msgstr ""
+msgstr "Ловкость (AGI): "
 
 #: ../src/modes/menu/menu_views.cpp:942
 msgid "Evade (EVD): "
-msgstr ""
+msgstr "Уклонение"
 
 #: ../src/modes/menu/menu_views.cpp:1187
 msgid "Field"
-msgstr ""
+msgstr "Полевые"
 
 #: ../src/modes/menu/menu_views.cpp:1347
 msgid "Weapon skill"
@@ -845,7 +850,7 @@ msgstr ""
 #: ../src/modes/mode_help_window.cpp:116
 #, c-format
 msgid "Press '%s' anytime to show/hide help."
-msgstr "Нажвите '%s' в любое время чтобы показать подсказку."
+msgstr "Нажмите '%s' в любое время чтобы показать подсказку."
 
 #: ../src/modes/mode_help_window.cpp:125
 msgid "Welcome to Valyria Tear"
@@ -1072,15 +1077,15 @@ msgstr ""
 
 #: ../src/modes/pause.cpp:63
 msgid "Paused"
-msgstr ""
+msgstr "Пауза"
 
 #: ../src/modes/pause.cpp:75
 msgid "Quit Game"
-msgstr ""
+msgstr "Выход из игры"
 
 #: ../src/modes/pause.cpp:76
 msgid "Quit to Main Menu"
-msgstr ""
+msgstr "Выход в главное меню"
 
 #: ../src/modes/save/save_mode.cpp:94
 msgid "Save Game"
@@ -1272,7 +1277,7 @@ msgstr ""
 #: ../dat/battles/tutorial_battle_dialogs.lua:61
 #: ../dat/maps/layna_village/battle_with_banesore/battle_with_banesore_script.lua:50
 msgid "Bronann"
-msgstr ""
+msgstr "Бронан"
 
 #: ../dat/actors/characters.lua:19 ../dat/skills/magic.lua:1013
 msgid "Holy"
@@ -1282,7 +1287,7 @@ msgstr ""
 #: ../dat/battles/tutorial_battle_dialogs.lua:62
 #: ../dat/maps/mt_elbrus/battle_with_dark_soldiers_script.lua:32
 msgid "Kalya"
-msgstr ""
+msgstr "Калья"
 
 #: ../dat/actors/characters.lua:233
 msgid "Invocation"
@@ -1494,7 +1499,7 @@ msgstr ""
 
 #: ../dat/actors/enemies.lua:1709 ../dat/actors/enemies.lua:1775
 msgid "Arm"
-msgstr ""
+msgstr "Рук"
 
 #: ../dat/actors/enemies.lua:1737
 msgid "Aurum Drakueli"
@@ -1506,15 +1511,15 @@ msgstr ""
 
 #: ../dat/actors/map_sprites.lua:83
 msgid "Carson"
-msgstr ""
+msgstr "Карсон"
 
 #: ../dat/actors/map_sprites.lua:99
 msgid "Malta"
-msgstr ""
+msgstr "Мальта"
 
 #: ../dat/actors/map_sprites.lua:115
 msgid "Orlinn"
-msgstr ""
+msgstr "Орлин"
 
 #: ../dat/actors/map_sprites.lua:131
 #: ../dat/maps/layna_village/battle_with_banesore/battle_with_banesore_script.lua:52
@@ -1525,38 +1530,38 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_center_script.lua:206
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:175
 msgid "Olivia"
-msgstr ""
+msgstr "Оливия"
 
 #: ../dat/actors/map_sprites.lua:166
 #: ../dat/maps/layna_village/layna_village_center_script.lua:157
 #: ../dat/maps/layna_village/layna_village_kalya_house_path_script.lua:100
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:163
 msgid "Brymir"
-msgstr ""
+msgstr "Бримир"
 
 #: ../dat/actors/map_sprites.lua:181
 #: ../dat/maps/layna_village/layna_village_center_script.lua:166
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:167
 msgid "Martha"
-msgstr ""
+msgstr "Марта"
 
 #: ../dat/actors/map_sprites.lua:196
 #: ../dat/maps/layna_village/layna_village_center_script.lua:175
 msgid "Sophia"
-msgstr ""
+msgstr "София"
 
 #: ../dat/actors/map_sprites.lua:212
 #: ../dat/maps/layna_village/battle_with_banesore/battle_with_banesore_script.lua:53
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:151
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:107
 msgid "Lilly"
-msgstr ""
+msgstr "Лилли"
 
 #: ../dat/actors/map_sprites.lua:227
 #: ../dat/maps/layna_village/layna_village_center_script.lua:200
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:171
 msgid "Georges"
-msgstr ""
+msgstr "Жорж"
 
 #: ../dat/actors/map_sprites.lua:243
 msgid "Crystal"
@@ -1748,12 +1753,12 @@ msgstr ""
 #: ../dat/config/quests.lua:86 ../dat/config/quests.lua:102
 #: ../dat/config/world_locations.lua:18
 msgid "Village of Layna"
-msgstr ""
+msgstr "Деревня Лайна"
 
 #: ../dat/config/quests.lua:24 ../dat/config/quests.lua:72 map_names_tr.lua:51
 #: map_names_tr.lua:183
 msgid "Bronann's home"
-msgstr ""
+msgstr "Дом Бронана"
 
 #: ../dat/config/quests.lua:30
 msgid "Find Georges' pen"
@@ -1778,7 +1783,7 @@ msgstr ""
 #: ../dat/config/quests.lua:88 map_names_tr.lua:55 map_names_tr.lua:59
 #: map_names_tr.lua:187 map_names_tr.lua:191
 msgid "Village center"
-msgstr ""
+msgstr "Центр деревни"
 
 #: ../dat/config/quests.lua:46
 msgid "Catch Orlinn!"
@@ -1880,59 +1885,59 @@ msgstr ""
 
 #: ../dat/credits/episode1_credits.lua:35
 msgid "Based on the engine"
-msgstr ""
+msgstr "Основано на движке"
 
 #: ../dat/credits/episode1_credits.lua:39
 msgid "Story"
-msgstr ""
+msgstr "Сюжет"
 
 #: ../dat/credits/episode1_credits.lua:43
 msgid "Episode I - Main Graphics"
-msgstr ""
+msgstr "Эпизод I - графика"
 
 #: ../dat/credits/episode1_credits.lua:47
 msgid "Episode I - Additional Graphics"
-msgstr ""
+msgstr "Эпизод I - доп. графика" # XXX: что-то лучше чем "доп."?
 
 #: ../dat/credits/episode1_credits.lua:48
 msgid "and many others"
-msgstr ""
+msgstr "и многие другие"
 
 #: ../dat/credits/episode1_credits.lua:51
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 #: ../dat/credits/episode1_credits.lua:55
 msgid "Programming, Scripting, Maps"
-msgstr ""
+msgstr "Код, скрипты, карты"
 
 #: ../dat/credits/episode1_credits.lua:59
 msgid ""
 "Additional programming\n"
 "and scripting"
-msgstr ""
+msgstr "Ещё код и скрипты"
 
 #: ../dat/credits/episode1_credits.lua:63
 msgid "Ports"
-msgstr ""
+msgstr "Портирование"
 
 #: ../dat/credits/episode1_credits.lua:67
 msgid "Translations"
-msgstr ""
+msgstr "Переводы"
 
 #: ../dat/credits/episode1_credits.lua:71
 msgid "Tester Team"
-msgstr ""
+msgstr "Тестирование"
 
 #: ../dat/credits/episode1_credits.lua:76
 msgid "To Lilou and Léo..."
-msgstr ""
+msgstr "Посвящается Lilou и Léo..."
 
 #: ../dat/credits/episode1_credits.lua:80
 msgid ""
 "Thanks to everyone\n"
 "who made this possible!!"
-msgstr ""
+msgstr "Спасибо всем, кто\nсделал это возможным!" # XXX: перефразировать?
 
 #: ../dat/effects/status.lua:69
 msgid "Strength"
@@ -2012,15 +2017,15 @@ msgstr ""
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:47
 msgid "Move your character:"
-msgstr ""
+msgstr "Передвижение:"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:53
 msgid "Possible actions:"
-msgstr ""
+msgstr "Действия:"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:58
 msgid "Game commands:"
-msgstr ""
+msgstr "Управление игрой:"
 
 #: ../dat/maps/layna_forest/layna_forest_cave1_1_script.lua:169
 #: ../dat/maps/layna_forest/layna_forest_crystal_script.lua:149
@@ -2186,7 +2191,7 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:143
 #: ../dat/maps/layna_village/layna_village_kalya_house_path_at_night_script.lua:259
 msgid "Bronann!"
-msgstr ""
+msgstr "Бронан!"
 
 #: ../dat/maps/layna_forest/layna_forest_crystal_script.lua:671
 msgid "Bronann! Are you all right? Answer me!!"
@@ -2639,37 +2644,37 @@ msgstr ""
 msgid ""
 "That nightmare again... This time, I still feel dizzy even after getting "
 "up..."
-msgstr ""
+msgstr "Снова этот кошмар... В этот раз голова кружится ещё сильнее..."
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_first_floor_script.lua:189
 msgid "I'd better be going and forget about it as fast as possible..."
-msgstr ""
+msgstr "Нужно бы заняться чем-нибудь и забыть об этом сне как можно скорее..."
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:94
 msgid "Hey son! Slept well? Err, where did I leave that oil lamp?"
-msgstr ""
+msgstr "Доброго утра, сын! Выспался? Не помнишь куда я задевал лампу?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:96
 msgid "Hi Dad! Er, I don't know. Sorry."
-msgstr ""
+msgstr "Утра, папа! Не знаю, прости."
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:98
 msgid "Nah, no problem, I'll find it."
-msgstr ""
+msgstr "Да ерунда, найду её рано или поздно."
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:172
 msgid ""
 "Now that you're *finally* up, could you go and buy some barley meal for us "
 "three?"
-msgstr ""
+msgstr "Раз ты *наконец* поднялся, не сходишь ли купить нам ячменной муки?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:174
 msgid "Barley meal again?"
-msgstr ""
+msgstr "Опять мука?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:176
 msgid "Hmph, just go, boy. You'll be free after that, ok?"
-msgstr ""
+msgstr "Слушай, просто сходи, потом будешь свободен, ладно?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:301
 msgid "Thanks for helping me out with the dishes."
@@ -2757,15 +2762,15 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:499
 msgid "Hi son, did you also have a nightmare last night?"
-msgstr ""
+msgstr "С добным утром, сынок. Опять снились кошмары?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:501
 msgid "Hi mom. Huh, how do you know..."
-msgstr ""
+msgstr "Утра, мама. Как ты догадалась?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:503
 msgid "Eh eh? Have you already forgotten I'm your mother?"
-msgstr ""
+msgstr "Ай-ай, ты уже забыл что я твоя мать?"
 
 #: ../dat/maps/layna_village/layna_village_bronanns_home_script.lua:510
 msgid "Don't venture too far, I'll need your help quite soon!"
@@ -2795,7 +2800,7 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_center_script.lua:543
 #: ../dat/maps/layna_village/layna_village_center_script.lua:953
 msgid "Huh?"
-msgstr ""
+msgstr "Хм?"
 
 #: ../dat/maps/layna_village/layna_village_center_at_night_script.lua:323
 msgid "What's happening here?!? Where is everyone??"
@@ -2835,32 +2840,32 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:135
 msgid "Please, leave me alone, Bronann..."
-msgstr ""
+msgstr "Прошу тебя Бронан, оставь меня в покое..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:161
 msgid "Ahh sure! (gossip, gossip)"
-msgstr ""
+msgstr "Ох, что творится! (бла-бла-бла)"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:170
 msgid "Did you hear that? (gossip, gossip)"
-msgstr ""
+msgstr "А ты слышал что... (бла-бла-бла)"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:181
 msgid ""
 "If you're running after Orlinn, I just saw him disappear near your house."
-msgstr ""
+msgstr "Если ты гонишься за Орлином, он только что прошмыгнул за твой дом."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:184
 msgid "You're too young to trade stuff with me!"
-msgstr ""
+msgstr "Мал ты ещё торговать со мной!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:375
 msgid "Hmm, I'll go to Flora's shop. I hope she'll help me..."
-msgstr ""
+msgstr "Хм, нужно наведаться в магазин Флоры, надеюсь она мне поможет..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:417
 msgid "Why doesn't anyone want to tell me what's going on!!"
-msgstr ""
+msgstr "Почему никто не говорит мне что происходит!!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:419
 msgid ""
@@ -2962,7 +2967,7 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:541
 msgid "What?!?"
-msgstr ""
+msgstr "Что?!?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:545
 msgid "Carson is right, Kalya. Bronann shall go with you."
@@ -3113,12 +3118,12 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_center_script.lua:891
 #: ../dat/maps/layna_village/layna_village_center_script.lua:912
 msgid "Actually, the barley meal was for Lilly."
-msgstr ""
+msgstr "По правде, муку я взял для Лилли."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:893
 #: ../dat/maps/layna_village/layna_village_center_script.lua:914
 msgid "!! What?"
-msgstr ""
+msgstr "!! Что?!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:895
 msgid "Don't thank me for that. It's my pleasure."
@@ -3126,94 +3131,94 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:904
 msgid "Here it is, Georges."
-msgstr ""
+msgstr "Вот она, Жорж."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:906
 msgid ""
 "You're the nicest person I know, Bronann. I well tell everyone how brave "
 "you..."
-msgstr ""
+msgstr "Ты милейший из моих знакомых, Бронан. Я буду слагать былины о твоей храбр..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:908
 msgid "(Sigh...) Georges!"
-msgstr ""
+msgstr "(вздох...) Жорж!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:910
 msgid "Ok ok. Just having a bit of spirit, young man."
-msgstr ""
+msgstr "Ладно, ладно. Просто безмерно тебе благодарен."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:916
 msgid "Don't thank me for that, it's my pleasure."
-msgstr ""
+msgstr "Не благодари, был рад помочь."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:924
 #: ../dat/maps/layna_village/layna_village_center_script.lua:955
 msgid ""
 "You see, I lost my beloved pen. Was it near a tree or next to the waving "
 "child of the mountain snow?"
-msgstr ""
+msgstr "Понимаешь, я потерял любимую ручку. Не помню, возле древа ли или подле дитя горного снега, что машет рукой?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:926
 #: ../dat/maps/layna_village/layna_village_center_script.lua:957
 msgid "Shall you find it, I would be extremely obliged to you!"
-msgstr ""
+msgstr "Если тебе случится её найти, благодарность моя будет безмерной!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:928
 #: ../dat/maps/layna_village/layna_village_center_script.lua:959
 msgid ""
 "Inquire our comrades in the settlement, perhaps somebody has laid their eyes "
 "on it."
-msgstr ""
+msgstr "Попробуй распросить наших соседей по деревне, кто-то наверняка видел её."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:930
 #: ../dat/maps/layna_village/layna_village_center_script.lua:961
 msgid "(Sigh...) Hmm, fine."
-msgstr ""
+msgstr "(Вздох...) Уфф, ладно."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:937
 msgid "Hi Georges. Erm, I'm coming from the shop and I ..."
-msgstr ""
+msgstr "Привет Жорж. Эм, я тут заходил в магазин и ..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:939
 msgid "Can you hear this?"
-msgstr ""
+msgstr "Тихо! Слышишь?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:941
 msgid "Erm, ... Well, I don't hear anything special..."
-msgstr ""
+msgstr "Эмм, ... Да нет, ничего не слышу...."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:943
 msgid ""
 "That's the point! Can't you hear the magnificent sound of nature, so "
 "invisible to our adapted ears?"
-msgstr ""
+msgstr "В том то и дело! Разве ты не слышишь удивительную музыку природы, столь незаметную привыкшему слуху?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:945
 msgid "Huh, please Georges. I do not want to run away like the last time..."
-msgstr ""
+msgstr "Пожалуйста, Жорж. Не хочу убегать как в прошлый раз..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:947
 msgid ""
 "... The incredible and amazing. I could even say, the stunning feel of it in "
 "the wind..."
-msgstr ""
+msgstr "... удивительная и потрясающая. Я бы даже назвал это ошеломляющее чувство, витающее в воздухе ..."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:949
 msgid ""
 "Georges, I simply wanted to ask you whether you had some barley meal left!"
-msgstr ""
+msgstr "Жорж, я просто хотел узнать, не осталось ли у тебя муки!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:951
 msgid ""
 "Ah, I see. Well unfortunately, I'm so sad about a recent loss that, I can't "
 "find the right words with which to tell you."
-msgstr ""
+msgstr "А, понятно. Что-ж, увы - я так расстроен недавней потерей что не могу найти слов чтобы ответить тебе."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:969
 msgid ""
 "Ah, the river is so beautiful at this time of the year. I feel like writing "
 "some poetry..."
-msgstr ""
+msgstr "Ах, река так прекрасна в это время года. Хочется писать стихи...."
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:996
 msgid "I promise I won't bother you again ..."
@@ -3226,43 +3231,43 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1019
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:639
 msgid "Hee hee hee!"
-msgstr ""
+msgstr "Хе-хе-хе!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1021
 msgid "What are you laughing about, Orlinn?"
-msgstr ""
+msgstr "Над чем хохочешь, Орлин?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1023
 msgid "You'll never find it!"
-msgstr ""
+msgstr "Ты никогда её не найдёшь!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1025
 msgid "Huh? Wait! Are you talking about Georges' lost pen?"
-msgstr ""
+msgstr "Что? Погодь, ты случайно не о потерянной ли ручке Жоржа?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1027
 msgid "Hee hee hee! Yes!"
-msgstr ""
+msgstr "Хе-хе-хе! Да!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1029
 msgid "Please tell me! Have you found it?"
-msgstr ""
+msgstr "Расскажи, прошу тебя! Ты нашёл её?"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1031
 msgid "Maybe yes, maybe no!"
-msgstr ""
+msgstr "Может да, может нет!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1033
 msgid "Oh no, please Orlinn! I need it!"
-msgstr ""
+msgstr "Ну пожалуйста, Орлин! Она мне нужна!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1035
 msgid "Sure, I'll help you. But only if you can catch me!"
-msgstr ""
+msgstr "Так и быть, я тебя выручу. Но сначала - догони!"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1037
 msgid "Hee hee! (He'll never find me hiding behind the buildings!)"
-msgstr ""
+msgstr "Хе-хе! (он никогда не найдёт меня за домами!)"
 
 #: ../dat/maps/layna_village/layna_village_center_script.lua:1044
 msgid "Heya bro! Wanna play with me?"
@@ -3271,13 +3276,13 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:68
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:73
 msgid "Flora"
-msgstr ""
+msgstr "Флора"
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:164
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:187
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:208
 msgid "Hi Bronann! What can I do for you?"
-msgstr ""
+msgstr "Привет Бронан! Чем могу помочь?"
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:166
 msgid ""
@@ -3297,37 +3302,37 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:178
 msgid "Just find our *poet* and he should give you some barley meal, ok?"
-msgstr ""
+msgstr "Просто найди нашего *поэта* и попроси его поделиться мукой, хорошо?"
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:180
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:199
 msgid ""
 "He's probably 'musing' around the cliffs in the village center right now."
-msgstr ""
+msgstr "Наверняка он сейчас 'ищёт вдохновения' у камней в центре деревни."
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:189
 msgid "Hi Flora! Do you have some barley meal left?"
-msgstr ""
+msgstr "Здравствуй Флора! У тебя случайно не осталось ячменной муки?"
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:191
 msgid "Oh sorry, our 'great' poet came earlier and took all the rest of it."
-msgstr ""
+msgstr "Увы, наш 'замечательный' поэт буквально только что забрал последнее."
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:193
 msgid "Times are becoming harder now. We've got less food than before..."
-msgstr ""
+msgstr "Времена пошли тяжелые, продуктов не хватает..."
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:195
 msgid ""
 "? ... This is the first time that I've seen you wear such a worrisome "
 "expression."
-msgstr ""
+msgstr "? ... Первый раз вижу тебя такой озабоченной."
 
 #: ../dat/maps/layna_village/layna_village_center_shop_script.lua:197
 msgid ""
 "Nevermind... Don't worry about me. Just find him and he should give you "
 "some, ok?"
-msgstr ""
+msgstr "Не волнуйся за меня. Лучше найди его - пусть поделится."
 
 #: ../dat/maps/layna_village/layna_village_kalya_house_exterior_script.lua:189
 msgid "Hmm, the door is locked."
@@ -3339,7 +3344,7 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_kalya_house_path_at_night_script.lua:267
 msgid "Bronann!!!"
-msgstr ""
+msgstr "Бронан!!!"
 
 #: ../dat/maps/layna_village/layna_village_kalya_house_path_at_night_script.lua:291
 msgid "Bronann!!! Hold on! We're almost there..."
@@ -3858,7 +3863,7 @@ msgstr ""
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:795
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:597
 msgid "What?!"
-msgstr ""
+msgstr "Что?!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_at_night_script.lua:797
 msgid ""
@@ -3892,97 +3897,97 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:247
 msgid "Wow! You found me!"
-msgstr ""
+msgstr "Ух ты, нашёл таки!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:249
 msgid "But I'm not done yet!"
-msgstr ""
+msgstr "Но это ещё не всё!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:251
 msgid "You'll never find me hiding behind the..."
-msgstr ""
+msgstr "Ты никогда не найдёшь меня за..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:253
 msgid "Hey, why would I tell you my hiding spots?!"
-msgstr ""
+msgstr "Погоди, зачем я рассказываю где прячусь?!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:271
 msgid "That kid is pretty quick. This is going to take all day..."
-msgstr ""
+msgstr "Быстрый сорванец. Весь день придётся за ним бегать..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:323
 msgid "Please no! Wait!"
-msgstr ""
+msgstr "Пожалуйста! Подожди!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:325
 msgid "Orlinn! Stop this!"
-msgstr ""
+msgstr "Орлин! Перестань немедленно!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:343
 msgid "Orlinn! How many times did I tell you not to bother other people?"
-msgstr ""
+msgstr "Орлин! Сколько раз я должна повторить чтобы ты перестал доводить людей?"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:345
 msgid "But sis! I..."
-msgstr ""
+msgstr "Но... Я..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:347
 msgid "I don't want to hear it! Now, come!"
-msgstr ""
+msgstr "Не хочу ничего слышать! Пошли, живо!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:349
 msgid "Don't blame him, Kalya. Actually, it was..."
-msgstr ""
+msgstr "Не ругай его, Калья. На самом деле это из-за..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:351
 msgid "I don't think I was talking to you, now was I?"
-msgstr ""
+msgstr "А с тобой я вообще не говорила!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:353
 msgid "Come Orlinn!"
-msgstr ""
+msgstr "Марш, Орлин!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:380
 msgid "I found that pen near the tree behind you. I just wanted to play..."
-msgstr ""
+msgstr "Ручку я нашел у того дерева сзади тебя. Хотел поиграть просто..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:382
 msgid "Don't worry about that..."
-msgstr ""
+msgstr "Не бери в голову..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:384
 msgid "Take it... Thanks."
-msgstr ""
+msgstr "Бери... Спасибо."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:411
 msgid "Bronann?"
-msgstr ""
+msgstr "Бронан!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:413
 msgid "Er, yes?"
-msgstr ""
+msgstr "Эм, да?"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:415
 msgid ""
 "Don't blame Kalya. She was having a hard time along with her brother before "
 "living here, you know?"
-msgstr ""
+msgstr "Не обижайся на Калью. Знаешь, они с братом натерпелись пока не поселились здесь."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:417
 msgid "Well anyway, she's been ignoring me since the first day I saw her..."
-msgstr ""
+msgstr "Всё равно, с чего она игнорирует меня с первого дня как мы увиделись..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:419
 msgid "Eh? You really know nothing about women, do you?"
-msgstr ""
+msgstr "Хм? Ты похоже совсем мало знаешь о женщинах, а?"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:421
 msgid "... Huh?"
-msgstr ""
+msgstr "... Эм, чЧто?"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:423
 msgid "Heh heh, don't worry about it. It will come in time."
-msgstr ""
+msgstr "Хе-хе, не бери в голову. Сам поймёшь со временем."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:468
 msgid "Here it is, Bronann."
@@ -3990,17 +3995,17 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:487
 msgid "Thanks, Lilly."
-msgstr ""
+msgstr "Спасибо, Лилли."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:489
 msgid ""
 "We're having a shortage of food lately. And I've been taking... special "
 "measures to make sure that everyone has enough food."
-msgstr ""
+msgstr "У нас последнее время не хватает продовольствия, и я приняла... дополнитальные меры чтобы всем хватило."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:491
 msgid "Try to enjoy this day, Bronann."
-msgstr ""
+msgstr "Постарайся порадоваться этому дню, Бронан" # XXX: нужно перефразировать
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:575
 msgid "We're counting on you."
@@ -4008,40 +4013,40 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:581
 msgid "You should go back home. Your mom must be waiting for you."
-msgstr ""
+msgstr "Тебе пока возвращаться домой, мама ждёт."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:587
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:605
 msgid "What a nice day, isn't it?"
-msgstr ""
+msgstr "Хороший денёк, правда?"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:589
 msgid "Yes, Lilly. But I have something I have to ask you."
-msgstr ""
+msgstr "Да, Лилли. По правде я хотел кое-что спросить."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:591
 msgid "Sure, just ask."
-msgstr ""
+msgstr "Конечно, спрашивай."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:593
 msgid ""
 "Have you still got any barley meal left for my parents and I? My mother "
 "asked me to get some and I..."
-msgstr ""
+msgstr "У тебя случайно не осталось муки для нас с родителями? Мама отправила меня за ней и я..."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:595
 msgid "Unfortunately, I gave it all to Kalya..."
-msgstr ""
+msgstr "К сожалению, я всё отдала Калье...."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:599
 msgid ""
 "Ah hah! I just wanted to see your reaction. I still have some. Let me go "
 "grab it and bring it back to you."
-msgstr ""
+msgstr "Аха! Просто хотела посмотреть на твою реакцию. Конечно, осталось, сейчас принесу."
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:629
 msgid "You'll never get me!"
-msgstr ""
+msgstr "Не поймаешь!"
 
 #: ../dat/maps/layna_village/layna_village_riverbank_script.lua:641
 msgid "Orlinn, how did you get there?"
@@ -4080,11 +4085,11 @@ msgstr ""
 
 #: ../dat/maps/layna_village/layna_village_south_entrance_script.lua:272
 msgid "Yiek!!! Hey, you scared me."
-msgstr ""
+msgstr "Ай!!! Ты напугал меня."
 
 #: ../dat/maps/layna_village/layna_village_south_entrance_script.lua:274
 msgid "But you'll never find me hiding on top of the cliffs!"
-msgstr ""
+msgstr "Но теперь ты никогда не найдёшь меня за скалами!"
 
 #: ../dat/maps/mt_elbrus/battle_with_dark_soldiers_script.lua:36
 msgid ""
@@ -4342,39 +4347,39 @@ msgstr ""
 
 #: ../dat/objects/items.lua:72
 msgid "Minor Healing Potion"
-msgstr ""
+msgstr "Малое лечебное зелье"
 
 #: ../dat/objects/items.lua:73
 msgid "Restores a small amount of hit points to an ally."
-msgstr ""
+msgstr "Восстанавливает небольшое количество здоровья."
 
 #: ../dat/objects/items.lua:91
 msgid "Medium Healing Potion"
-msgstr ""
+msgstr "Среднее лечебное зелье"
 
 #: ../dat/objects/items.lua:92
 msgid "Restores a reasonable amount of hit points to an ally."
-msgstr ""
+msgstr "Восстанавливает среднее количество здоровья."
 
 #: ../dat/objects/items.lua:116
 msgid "Healing Potion"
-msgstr ""
+msgstr "Лечебное зелье"
 
 #: ../dat/objects/items.lua:117
 msgid "Restores a large amount of hit points to an ally."
-msgstr ""
+msgstr "Восстанавливает большое количество здоровья."
 
 #: ../dat/objects/items.lua:141
 msgid "Mega Healing Potion"
-msgstr ""
+msgstr "Мега лечебное зелье"
 
 #: ../dat/objects/items.lua:142
 msgid "Restores a very high amount of hit points to an ally."
-msgstr ""
+msgstr "Восстанавливает очень большое количество здоровья."
 
 #: ../dat/objects/items.lua:185
 msgid "Small Moon Juice Potion"
-msgstr ""
+msgstr "Малое зелье Лунного Сока"
 
 #: ../dat/objects/items.lua:186
 msgid "Restores a small amount of skill points to an ally."
@@ -4492,19 +4497,19 @@ msgstr ""
 
 #: ../dat/objects/items.lua:416
 msgid "Pen"
-msgstr ""
+msgstr "Ручка" # Судя по иконке, это чернильница - нужно переделать
 
 #: ../dat/objects/items.lua:417
 msgid "Georges' pen, presumably used to write poetry."
-msgstr ""
+msgstr "Ручка Жоржа, предположительно используется для записи стихов."
 
 #: ../dat/objects/items.lua:424
 msgid "Barley Meal"
-msgstr ""
+msgstr "Ячменная мука"
 
 #: ../dat/objects/items.lua:425
 msgid "Basic yet good and cheap flour."
-msgstr ""
+msgstr "Дешёвая, но неплохая мука."
 
 #: ../dat/objects/items.lua:432
 msgid "Wolfpain Necklace"
@@ -4731,11 +4736,11 @@ msgstr ""
 
 #: ../dat/skills/barehands.lua:28
 msgid "Punch"
-msgstr ""
+msgstr "Удар"
 
 #: ../dat/skills/barehands.lua:29
 msgid "A simple punch. Better than nothing..."
-msgstr ""
+msgstr "Обычный удар. Лучше чем ничего..."
 
 #: ../dat/skills/barehands.lua:56
 msgid "Throw stone"
@@ -5411,32 +5416,32 @@ msgstr ""
 #: ../dat/help/in_game_move_and_interact_anim.lua:54
 #, c-format
 msgid "Confirm / Open / Talk: %s"
-msgstr ""
+msgstr "Подтвердить / Открыть / Говорить: %s"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:55
 #, c-format
 msgid "Run / Cancel: %s"
-msgstr ""
+msgstr "Бежать / Отменить: %s"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:56
 #, c-format
 msgid "Party Menu: %s"
-msgstr ""
+msgstr "Меню отряда: %s"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:59
 #, c-format
 msgid "Pause Menu: %s"
-msgstr ""
+msgstr "Пауза: %s"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:60
 #, c-format
 msgid "Quit Menu: %s"
-msgstr ""
+msgstr "Выход: %s"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:62
 #, c-format
 msgid "Help Menu: %s"
-msgstr ""
+msgstr "Подсказка: %s"
 
 #: ../dat/maps/layna_forest/layna_forest_entrance_script.lua:530
 #, c-format
@@ -5487,11 +5492,11 @@ msgstr ""
 #: map_names_tr.lua:221 map_names_tr.lua:225 map_names_tr.lua:229
 #: map_names_tr.lua:233 map_names_tr.lua:237 map_names_tr.lua:241
 msgid "Mountain Village of Layna"
-msgstr ""
+msgstr "Горная деревушка Лайна"
 
 #: map_names_tr.lua:63 map_names_tr.lua:195
 msgid "Flora's Boutique"
-msgstr ""
+msgstr "Магазинчик Флоры"
 
 #: map_names_tr.lua:87 map_names_tr.lua:219
 msgid "Basement"
@@ -5500,15 +5505,15 @@ msgstr ""
 #: map_names_tr.lua:91 map_names_tr.lua:99 map_names_tr.lua:223
 #: map_names_tr.lua:231
 msgid "Riverbank"
-msgstr ""
+msgstr "Берег"
 
 #: map_names_tr.lua:95 map_names_tr.lua:227
 msgid "Lilly's house"
-msgstr ""
+msgstr "Дом Лилли"
 
 #: map_names_tr.lua:111 map_names_tr.lua:243
 msgid "Village entrance"
-msgstr ""
+msgstr "Въезд в деревню" # XXX вход? ворота?
 
 #: map_names_tr.lua:113 map_names_tr.lua:117 map_names_tr.lua:121
 #: map_names_tr.lua:125 map_names_tr.lua:129 map_names_tr.lua:133
