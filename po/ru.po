@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the Valyria Tear package.
 # Dmitry Marakasov <amdmi3@amdmi3.ru>, 2013.
 #
+# XXX: название игры предполагаю как Слеза Валирии
 #: map_names_tr.lua:2 map_names_tr.lua:4 map_names_tr.lua:8
 #: map_names_tr.lua:12 map_names_tr.lua:16 map_names_tr.lua:28
 #: map_names_tr.lua:32 map_names_tr.lua:36 map_names_tr.lua:40
@@ -202,11 +203,11 @@ msgstr ""
 
 #: ../src/modes/battle/battle_finish.cpp:161 ../src/modes/boot/boot.cpp:738
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: ../src/modes/battle/battle_finish.cpp:162 ../src/modes/boot/boot.cpp:740
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: ../src/modes/battle/battle_finish.cpp:291
 msgid "Start over from the beginning of this battle."
@@ -317,15 +318,15 @@ msgstr ""
 
 #: ../src/modes/boot/boot.cpp:458
 msgid "New Game"
-msgstr ""
+msgstr "Новая игра"
 
 #: ../src/modes/boot/boot.cpp:459 ../src/modes/save/save_mode.cpp:96
 msgid "Load Game"
-msgstr ""
+msgstr "Загрузить"
 
 #: ../src/modes/boot/boot.cpp:460
 msgid "Options"
-msgstr ""
+msgstr "Настройки"
 
 #: ../src/modes/boot/boot.cpp:465 ../src/modes/menu/menu_views.cpp:1188
 msgid "Battle"
@@ -334,7 +335,7 @@ msgstr ""
 #: ../src/modes/boot/boot.cpp:466 ../src/modes/boot/boot.cpp:728
 #: ../src/modes/mode_help_window.cpp:248
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: ../src/modes/boot/boot.cpp:467
 msgid "Shop"
@@ -343,57 +344,57 @@ msgstr ""
 #: ../src/modes/boot/boot.cpp:471 ../src/modes/mode_help_window.cpp:153
 #: ../src/modes/mode_help_window.cpp:201 ../src/modes/mode_help_window.cpp:263
 msgid "Quit"
-msgstr ""
+msgstr "Выход"
 
 #: ../src/modes/boot/boot.cpp:499
 msgid "Video"
-msgstr ""
+msgstr "Видео"
 
 #: ../src/modes/boot/boot.cpp:500
 msgid "Audio"
-msgstr ""
+msgstr "Звук"
 
 #: ../src/modes/boot/boot.cpp:501
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: ../src/modes/boot/boot.cpp:502
 msgid "Key Settings"
-msgstr ""
+msgstr "Настройка клавиатуры"
 
 #: ../src/modes/boot/boot.cpp:503
 msgid "Joystick Settings"
-msgstr ""
+msgstr "Настройка джойстика"
 
 #: ../src/modes/boot/boot.cpp:522 ../src/modes/boot/boot.cpp:688
 msgid "Resolution: "
-msgstr ""
+msgstr "Разрешение: "
 
 #: ../src/modes/boot/boot.cpp:524 ../src/modes/boot/boot.cpp:692
 #: ../src/modes/boot/boot.cpp:694
 msgid "Window mode: "
-msgstr ""
+msgstr "Режим: "
 
 #: ../src/modes/boot/boot.cpp:525 ../src/modes/boot/boot.cpp:697
 msgid "Brightness: "
-msgstr ""
+msgstr "Яркость: "
 
 #: ../src/modes/boot/boot.cpp:526 ../src/modes/boot/boot.cpp:701
 #: ../src/modes/boot/boot.cpp:703
 msgid "Map tiles: "
-msgstr ""
+msgstr "Режим фона: "
 
 #: ../src/modes/boot/boot.cpp:527 ../src/modes/boot/boot.cpp:706
 msgid "UI Theme: "
-msgstr ""
+msgstr "Тема меню: "
 
 #: ../src/modes/boot/boot.cpp:546 ../src/modes/boot/boot.cpp:713
 msgid "Sound Volume: "
-msgstr ""
+msgstr "Громкость звука: "
 
 #: ../src/modes/boot/boot.cpp:547 ../src/modes/boot/boot.cpp:714
 msgid "Music Volume: "
-msgstr ""
+msgstr "Громкость музыки: "
 
 #: ../src/modes/boot/boot.cpp:614
 msgid "Up: "
@@ -433,99 +434,99 @@ msgstr ""
 
 #: ../src/modes/boot/boot.cpp:692
 msgid "Fullscreen"
-msgstr ""
+msgstr "Полноэкранный"
 
 #: ../src/modes/boot/boot.cpp:694
 msgid "Windowed"
-msgstr ""
+msgstr "Оконный"
 
 #: ../src/modes/boot/boot.cpp:701
 msgid "Smoothed"
-msgstr ""
+msgstr "Сглаженный"
 
 #: ../src/modes/boot/boot.cpp:703
 msgid "Normal"
-msgstr ""
+msgstr "Обычный"
 
 #: ../src/modes/boot/boot.cpp:722
 msgid "Move Up"
-msgstr ""
+msgstr "Вверх"
 
 #: ../src/modes/boot/boot.cpp:723
 msgid "Move Down"
-msgstr ""
+msgstr "Вниз"
 
 #: ../src/modes/boot/boot.cpp:724
 msgid "Move Left"
-msgstr ""
+msgstr "Влево"
 
 #: ../src/modes/boot/boot.cpp:725
 msgid "Move Right"
-msgstr ""
+msgstr "Вправо"
 
 #: ../src/modes/boot/boot.cpp:726 ../src/modes/mode_help_window.cpp:147
 #: ../src/modes/mode_help_window.cpp:189 ../src/modes/mode_help_window.cpp:242
 msgid "Confirm"
-msgstr ""
+msgstr "Подтвердить"
 
 #: ../src/modes/boot/boot.cpp:727 ../src/modes/mode_help_window.cpp:150
 #: ../src/modes/mode_help_window.cpp:192 ../src/modes/mode_help_window.cpp:245
 #: ../src/modes/pause.cpp:77 ../src/modes/save/save_mode.cpp:142
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #: ../src/modes/boot/boot.cpp:729 ../src/modes/mode_help_window.cpp:198
 #: ../src/modes/mode_help_window.cpp:260
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 #: ../src/modes/boot/boot.cpp:738 ../src/modes/boot/boot.cpp:740
 msgid "Input enabled: "
-msgstr ""
+msgstr "Включить джойстик: "
 
 #: ../src/modes/boot/boot.cpp:742
 msgid "X Axis"
-msgstr ""
+msgstr "Ось X"
 
 #: ../src/modes/boot/boot.cpp:743
 msgid "Y Axis"
-msgstr ""
+msgstr "Ось Y"
 
 #: ../src/modes/boot/boot.cpp:744
 msgid "Threshold"
-msgstr ""
+msgstr "Порог"
 
 #: ../src/modes/boot/boot.cpp:745
 msgid "Confirm: Button"
-msgstr ""
+msgstr "Подтвердить: Кнопка"
 
 #: ../src/modes/boot/boot.cpp:746
 msgid "Cancel: Button"
-msgstr ""
+msgstr "Отменить: Кнопка"
 
 #: ../src/modes/boot/boot.cpp:747
 msgid "Menu: Button"
-msgstr ""
+msgstr "Меню: Кнопка"
 
 #: ../src/modes/boot/boot.cpp:748
 msgid "Pause: Button"
-msgstr ""
+msgstr "Пауза: Кнопка"
 
 #: ../src/modes/boot/boot.cpp:749
 msgid "Quit: Button"
-msgstr ""
+msgstr "Выход: Кнопка"
 
 #: ../src/modes/boot/boot.cpp:1073
 msgid "Please press a new joystick button."
-msgstr ""
+msgstr "Нажмите выбранную кнопку на джойстике."
 
 #: ../src/modes/boot/boot.cpp:1075
 msgid "Please press a new key."
-msgstr ""
+msgstr "Нажмите выбранную клавишу."
 
 #: ../src/modes/boot/boot.cpp:1077
 msgid "Please move an axis."
-msgstr ""
+msgstr "Задействуйте выбранную ось на джойстике."
 
 #: ../src/modes/map/map_treasure.cpp:82
 msgid "You obtain"
@@ -844,56 +845,56 @@ msgstr ""
 #: ../src/modes/mode_help_window.cpp:116
 #, c-format
 msgid "Press '%s' anytime to show/hide help."
-msgstr ""
+msgstr "Нажвите '%s' в любое время чтобы показать подсказку."
 
 #: ../src/modes/mode_help_window.cpp:125
 msgid "Welcome to Valyria Tear"
-msgstr ""
+msgstr "Добро пожаловать в Слезу Валирии"
 
 #: ../src/modes/mode_help_window.cpp:131 ../src/modes/mode_help_window.cpp:167
 #: ../src/modes/mode_help_window.cpp:219
 msgid "Command"
-msgstr ""
+msgstr "Команда"
 
 #: ../src/modes/mode_help_window.cpp:132 ../src/modes/mode_help_window.cpp:168
 msgid "Current Key"
-msgstr ""
+msgstr "Клавиша"
 
 #: ../src/modes/mode_help_window.cpp:133 ../src/modes/mode_help_window.cpp:169
 msgid "Purpose"
-msgstr ""
+msgstr "Действие"
 
 #: ../src/modes/mode_help_window.cpp:141 ../src/modes/mode_help_window.cpp:177
 #: ../src/modes/mode_help_window.cpp:236
 #: ../dat/help/in_game_move_and_interact_anim.lua:37
 msgid "Left"
-msgstr ""
+msgstr "Влево"
 
 #: ../src/modes/mode_help_window.cpp:143
 msgid "Move menu cursor to the left"
-msgstr ""
+msgstr "Переместить курсор влево"
 
 #: ../src/modes/mode_help_window.cpp:144 ../src/modes/mode_help_window.cpp:180
 #: ../src/modes/mode_help_window.cpp:239
 #: ../dat/help/in_game_move_and_interact_anim.lua:38
 msgid "Right"
-msgstr ""
+msgstr "Вправо"
 
 #: ../src/modes/mode_help_window.cpp:146
 msgid "Move menu cursor to the right"
-msgstr ""
+msgstr "Переместить курсор вправо"
 
 #: ../src/modes/mode_help_window.cpp:149
 msgid "Confirm a menu command"
-msgstr ""
+msgstr "Подтвердить пункт меню"
 
 #: ../src/modes/mode_help_window.cpp:152
 msgid "Cancel a menu command"
-msgstr ""
+msgstr "Отменить действие"
 
 #: ../src/modes/mode_help_window.cpp:155 ../src/modes/mode_help_window.cpp:265
 msgid "Quit the application"
-msgstr ""
+msgstr "Выход из приложения"
 
 #: ../src/modes/mode_help_window.cpp:159
 msgid ""
@@ -914,7 +915,7 @@ msgstr ""
 #: ../src/modes/mode_help_window.cpp:183 ../src/modes/mode_help_window.cpp:230
 #: ../dat/help/in_game_move_and_interact_anim.lua:39
 msgid "Up"
-msgstr ""
+msgstr "Вверх"
 
 #: ../src/modes/mode_help_window.cpp:185
 msgid "Move up in the item list."
@@ -923,7 +924,7 @@ msgstr ""
 #: ../src/modes/mode_help_window.cpp:186 ../src/modes/mode_help_window.cpp:233
 #: ../dat/help/in_game_move_and_interact_anim.lua:40
 msgid "Down"
-msgstr ""
+msgstr "Вниз"
 
 #: ../src/modes/mode_help_window.cpp:188
 msgid "Move down in the item list."
@@ -1087,27 +1088,27 @@ msgstr ""
 
 #: ../src/modes/save/save_mode.cpp:119
 msgid "Slot 1"
-msgstr ""
+msgstr "Слот 1"
 
 #: ../src/modes/save/save_mode.cpp:120
 msgid "Slot 2"
-msgstr ""
+msgstr "Слот 2"
 
 #: ../src/modes/save/save_mode.cpp:121
 msgid "Slot 3"
-msgstr ""
+msgstr "Слот 3"
 
 #: ../src/modes/save/save_mode.cpp:122
 msgid "Slot 4"
-msgstr ""
+msgstr "Слот 4"
 
 #: ../src/modes/save/save_mode.cpp:123
 msgid "Slot 5"
-msgstr ""
+msgstr "Слот 5"
 
 #: ../src/modes/save/save_mode.cpp:124
 msgid "Slot 6"
-msgstr ""
+msgstr "Слот 6"
 
 #: ../src/modes/save/save_mode.cpp:141
 msgid "Confirm Save"
@@ -1859,11 +1860,11 @@ msgstr ""
 
 #: ../dat/config/settings.lua:11 ../dat/config/themes.lua:14
 msgid "Royal Silk"
-msgstr ""
+msgstr "Чёрная"
 
 #: ../dat/config/themes.lua:21
 msgid "Black Sleet"
-msgstr ""
+msgstr "Красная"
 
 #: ../dat/config/world_locations.lua:29 map_names_tr.lua:18
 #: map_names_tr.lua:22 map_names_tr.lua:26 map_names_tr.lua:30
@@ -1995,7 +1996,7 @@ msgstr ""
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:42
 msgid "Space"
-msgstr ""
+msgstr "Пробел"
 
 #: ../dat/help/in_game_move_and_interact_anim.lua:43
 msgid "Ctrl"
@@ -5514,7 +5515,7 @@ msgstr ""
 #: map_names_tr.lua:245 map_names_tr.lua:249 map_names_tr.lua:253
 #: map_names_tr.lua:257 map_names_tr.lua:261 map_names_tr.lua:265
 msgid "Mt. Elbrus"
-msgstr ""
+msgstr "Гора Эльбрус"
 
 #: map_names_tr.lua:115 map_names_tr.lua:119 map_names_tr.lua:123
 #: map_names_tr.lua:247 map_names_tr.lua:251 map_names_tr.lua:255
